@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 116.0.5845 (Mac OS X 10.15.7)" package="unit" timestamp="2023-09-25T07:45:37" id="0" hostname="MacBook-Pro.local" tests="5" errors="0" failures="0" time="0.267">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/116.0.5845.187 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should pass data between components" time="0.075" classname="unit.AppComponent"/>
+  <testcase name="CiphertextComponent should convert USD to Yen" time="0.11" classname="unit.CiphertextComponent"/>
+  <testcase name="CiphertextComponent should return JP Yen" time="0.055" classname="unit.CiphertextComponent"/>
+  <testcase name="PlaintextComponent should convert Yen to USD" time="0.013" classname="unit.PlaintextComponent"/>
+  <testcase name="PlaintextComponent should return US Dollars" time="0.014" classname="unit.PlaintextComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 116.0.5845 (Mac OS X 10.15.7) LOG: <textarea id="yen" placeholder="Enter value in Yen" ng-reflect-model="" class="ng-untouched ng-pristine ng-valid"></textarea>
+,HeadlessChrome 116.0.5845 (Mac OS X 10.15.7) LOG: ''
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
